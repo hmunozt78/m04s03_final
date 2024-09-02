@@ -1,8 +1,8 @@
 from modulos.M04S03_Final_m import Cliente
 from modulos.M04S03_Final_f import menu_depositar, ver_saldo, menu_girar, limpiar_pantalla
 
-cliente1 = Cliente("13433689-7", "Hugo Muñoz", "Av. Siemprevida 123", "A-001", saldo = 3000)
-cliente2 = Cliente("13433689-7", "Hugo Muñoz", "Av. Siemprevida 123", "B-001", saldo= 2000)
+cliente1 = Cliente("1234-7", "Hugo Muñoz", "Av. Siemprevida 123", "A-001", saldo = 3000)
+cliente2 = Cliente("1234-7", "Hugo Muñoz", "Av. Siemprevida 123", "B-001", saldo= 2000)
 cliente3 = Cliente("1-9", "Kevin Muñoz", "Av. Siemprevida 123", "A-002", saldo=1500)
 
 v_cambiar_cliente=bool(True)
